@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VoltBench.Core\VoltBench.Core.csproj" />
+    <PackageReference Include="IviFoundation.Visa" />
+  </ItemGroup>
+</Project>

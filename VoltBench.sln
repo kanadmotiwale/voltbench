@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ED25F979-EDF3-4BE5-A756-C18E060AF20C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoltBench.App", "src\VoltBench.App\VoltBench.App.csproj", "{6C3D8CC1-BCF8-4ECB-9A01-D34542715E5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoltBench.Core", "src\VoltBench.Core\VoltBench.Core.csproj", "{E2B33E49-F157-4B7E-992D-15EAD66DCAD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoltBench.Instruments", "src\VoltBench.Instruments\VoltBench.Instruments.csproj", "{C0FD3BE7-2E83-4BEB-81AB-B7FDB26CBCCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{88126FA7-8BF9-43E2-BCEB-799DBDEEA125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoltBench.Tests", "tests\VoltBench.Tests\VoltBench.Tests.csproj", "{4B085808-B615-4807-873E-6C1ACB9F70DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C3D8CC1-BCF8-4ECB-9A01-D34542715E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C3D8CC1-BCF8-4ECB-9A01-D34542715E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C3D8CC1-BCF8-4ECB-9A01-D34542715E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C3D8CC1-BCF8-4ECB-9A01-D34542715E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2B33E49-F157-4B7E-992D-15EAD66DCAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2B33E49-F157-4B7E-992D-15EAD66DCAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2B33E49-F157-4B7E-992D-15EAD66DCAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2B33E49-F157-4B7E-992D-15EAD66DCAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0FD3BE7-2E83-4BEB-81AB-B7FDB26CBCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FD3BE7-2E83-4BEB-81AB-B7FDB26CBCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FD3BE7-2E83-4BEB-81AB-B7FDB26CBCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FD3BE7-2E83-4BEB-81AB-B7FDB26CBCCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B085808-B615-4807-873E-6C1ACB9F70DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B085808-B615-4807-873E-6C1ACB9F70DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B085808-B615-4807-873E-6C1ACB9F70DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B085808-B615-4807-873E-6C1ACB9F70DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C3D8CC1-BCF8-4ECB-9A01-D34542715E5B} = {ED25F979-EDF3-4BE5-A756-C18E060AF20C}
+		{E2B33E49-F157-4B7E-992D-15EAD66DCAD7} = {ED25F979-EDF3-4BE5-A756-C18E060AF20C}
+		{C0FD3BE7-2E83-4BEB-81AB-B7FDB26CBCCB} = {ED25F979-EDF3-4BE5-A756-C18E060AF20C}
+		{4B085808-B615-4807-873E-6C1ACB9F70DD} = {88126FA7-8BF9-43E2-BCEB-799DBDEEA125}
+	EndGlobalSection
+EndGlobal
