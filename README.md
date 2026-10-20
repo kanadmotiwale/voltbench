@@ -7,7 +7,7 @@ limits, plots measurements live and logs every measurement to CSV.
 The app runs without VISA or hardware: the default resource name `Simulated` connects to
 an in-memory supply and DMM wired to a resistive load.
 
-![Screenshot](docs/screenshot.png)
+```![Screenshot](docs/screenshot.png)```
 
 <!-- Replace docs/screenshot.png with a capture of the main window. -->
 
